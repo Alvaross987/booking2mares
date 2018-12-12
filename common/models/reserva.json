@@ -25,6 +25,11 @@
       "type": "belongsTo",
       "model": "Habitacion",
       "foreignKey": ""
+    },
+    "usuarioId": {
+      "type": "belongsTo",
+      "model": "Usuario",
+      "foreignKey": ""
     }
   },
   "acls": [],
